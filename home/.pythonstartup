@@ -1,7 +1,7 @@
 # vim: filetype=python
 import os, readline, rlcompleter, atexit
 
-readline.parse_and_bind('tabcomplete')
+readline.parse_and_bind('tab:complete')
 
 histfile = os.path.join(os.environ['HOME'], '.pyhistory')
 try:
